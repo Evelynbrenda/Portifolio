@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "homepage": "https://github.com/Evelynbrenda/Portifolio/tree/main#",
+    "homepage": "https://evelynbrenda.github.io/Portifolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
