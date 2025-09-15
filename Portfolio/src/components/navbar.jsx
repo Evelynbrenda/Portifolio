@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logofixa.jpg";
+import logo from "/assets/logofixa.jpg";
 import { Home, User, FileText, Mail, Menu, X } from "lucide-react";
 
 const menuItems = [

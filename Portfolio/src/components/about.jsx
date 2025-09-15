@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import minhaFoto from "../assets/bg.png";
+import minhaFoto from "/assets/bg.png";
 import { Sparkles, Target, Palette, Zap,  } from "lucide-react";
 
 const About = () => {

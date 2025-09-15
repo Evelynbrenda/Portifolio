@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import minhaFoto from "../assets/foto.jpeg"; 
+import minhaFoto from "/assets/foto.jpeg"; 
 
 const Hero = () => {
   return (
@@ -28,15 +28,14 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-white max-w-md drop-shadow-md">
             Gestão | Desenvolvimento web | React | Tailwind CSS | Pyhton | UX/UI | Marketing | Designer | Comunicação | Manutenção e suporte de redes de computadores
           </p>
-          <motion.button
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-white text-blue-600 font-bold rounded-full shadow-lg hover:bg-gray-100 hover:border-white transition-all"
-            onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
-
+          {/* Botão para baixar currículo */}
+          <a
+            href="/assets/curriculo.csv"
+            download
+            className="px-8 py-3 bg-white text-blue-600 font-bold rounded-full shadow-lg hover:bg-blue-500 hover:text-white transition"
           >
-            Conheça-me
-          </motion.button>
+            Baixar Currículo (CSV)
+          </a>
         </motion.div>
       </div>
     </section>
